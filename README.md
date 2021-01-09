@@ -12,12 +12,12 @@ https://github.com/karolpiczak/ESC-50
 =>scikit-learn
 =>Tensor-flow
 # Set-up
-1.Download all the files.
-2.Combine folders 001 to 009 and name the folder as dataset.
-3.A sample wav file for each class has been generated and kept within sample_wav folder for reference.
-4.To visualize the waveform in the form of a plot. 
-python plot_data.py -o "dataset/001 - Dog bark/1-30226-A.ogg"
-5.To train and classify, execute main.py as
-python main.py cnn  // for training CNN
-python main.py mlp  // for training MLP
-6.Once training is done, the trained models are automatically saved in h5 format.
+1.Download all the files.\n
+2.Combine folders 001 to 009 and name the folder as dataset.\n
+3.A sample wav file for each class has been generated and kept within sample_wav folder for reference.\n
+4.To visualize the waveform in the form of a plot. \n
+python plot_data.py -o "dataset/001 - Dog bark/1-30226-A.ogg"\n
+5.To train and classify, execute main.py as\n
+python main.py cnn  // for training CNN\n
+python main.py mlp  // for training MLP\n
+6.Once training is done, the trained models are automatically saved in h5 format.\n
