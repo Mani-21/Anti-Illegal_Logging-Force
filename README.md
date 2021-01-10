@@ -6,13 +6,18 @@ ESC-10: a labeled set of 400 environmental recordings (10 classes, 40 clips per 
 https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YDEPUT<br/>
 https://github.com/karolpiczak/ESC-50
 # Dependencies
-=>Python
-=>Keras
-=>Librosa
-=>scikit-learn
-=>Tensor-flow
+=>Python<br/>
+=>Keras<br/>
+=>Librosa<br/>
+=>scikit-learn<br/>
+=>Tensor-flow<br/>
+=>Pandas<br/>
+=>soundfile<br/>
+=>numpy<br/>
+=>os<br/>
+=>glob<br/>
 # Set-up
-1.Download all the files.\n<br/>
+1.Download all the files.<br/>
 2.Combine folders 001 to 009 and name the folder as dataset.<br/>
 3.A sample wav file for each class has been generated and kept within sample_wav folder for reference.<br/>
 4.To visualize the waveform in the form of a plot. <br/>
@@ -21,3 +26,6 @@ python plot_data.py -o "dataset/001 - Dog bark/1-30226-A.ogg"<br/>
 python main.py cnn  // for training CNN<br/>
 python main.py mlp  // for training MLP<br/>
 6.Once training is done, the trained models are automatically saved in h5 format.<br/>
+# Others
+Drive link : https://drive.google.com/drive/folders/1oRKp65TgWMIbv1Y1KmxNK25VTnG7pLoe?usp=sharing
+Youtube link : https://www.youtube.com/watch?v=nI0EU50kY5c
